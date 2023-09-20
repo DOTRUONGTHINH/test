@@ -29,13 +29,13 @@ function begin(){
 
     timerId=setInterval(frame, 5);
     function frame(){
-        if(x>=3000 || y>=3000) {
+        if(x>=2000 || y>=2000) {
             clearInterval(timerId);//stop animation
         }
         else{
-            degrees+=10;
-            x+=10;
-            y+=10;
+            degrees+=7;
+            x+=4;
+            y+=4;
             myAnimation.style.left=x+"px";
             myAnimation.style.top=y+"px";
             myAnimation.style.transform = "rotateZ("+degrees+"deg)";
