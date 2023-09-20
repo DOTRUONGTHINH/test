@@ -1,5 +1,5 @@
 const myButton=document.getElementById("myButton");
-const myAnimation=document.getElementById("myDiv");
+const myAnimation=document.getElementById("Hung");
 
 myButton.addEventListener("click", begin)
 /*
